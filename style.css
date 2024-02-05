@@ -12,7 +12,7 @@ h2 {
   font-size: 4rem;
   padding: 2rem;
 }
-.coming-soon {
+.coming-soon {  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,12 +38,11 @@ img {
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  transition: translate 0.5s ease-in-out;
   background-color: black;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   visibility: hidden;
-  transition: transform 0.5s ease-out;
+  transition: all 0.5s ease-out;
   transform: translateX(0);
 }
